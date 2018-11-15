@@ -3,3 +3,4 @@ change this file
 again change this file
 aaa
 Creating a new branch is quick.
+Creating a new branch is quick AND simple.
