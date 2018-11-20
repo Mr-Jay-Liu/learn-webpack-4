@@ -94,6 +94,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(11);
+/* harmony import */ var _data_xml__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_data_xml__WEBPACK_IMPORTED_MODULE_2__);
+ 
  
  
 
@@ -103,6 +106,8 @@ __webpack_require__.r(__webpack_exports__);
    // Lodash, now imported by this script
     element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Hello', 'webpack'], ' ');
     element.classList.add("hello");
+
+    console.log(_data_xml__WEBPACK_IMPORTED_MODULE_2___default.a);
 
     return element;
   }
@@ -17917,6 +17922,12 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports) {
+
+module.exports = {"note":{"to":["Mary"],"from":[{"_":"John","$":{"name":"liujie"}}],"heading":["Reminder"],"body":["Call Cindy on Tuesday"]}}
 
 /***/ })
 /******/ ]);
