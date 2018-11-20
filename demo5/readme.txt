@@ -6,3 +6,6 @@
 ,然后在配置项plugins中添加该插件实例.
 
 执行webpack编译后，将会产生一个新的html文件，里面包含了需要加载的资源。当然HtmlWebpackPlugin还有其他的配置项.
+
+
+webpack每次编译都会生成一些文件，为了保证每次构建生成都是我们需要的文件，所以推荐在构建前清理dist文件夹。因此我们会使用到一个`clean-webpack-plugin`.
