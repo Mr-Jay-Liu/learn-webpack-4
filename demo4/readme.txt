@@ -1,0 +1,6 @@
+webpack最出色的功能之一就是,就是除了Javascript,还可以通过loader引入任何其他类型的文件.
+
+加载CSS：
+为了能在JavaScript模块中导入一个CSS文件，我们需要在`module`配置中安装并添加style-loader和css-loader
+css-loader:负责加载路径资源并转换为javascript模块
+style-loader:负责将css通过style标签插入到页面
